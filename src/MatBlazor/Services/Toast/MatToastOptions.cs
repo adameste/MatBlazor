@@ -9,6 +9,7 @@ namespace MatBlazor
         /// The async <see cref="Func{MatToast,Task}"/> to be called on user click
         /// </summary>
         public Func<MatToast, Task> Onclick { get; set; }
+        public Func<MatToast, Task> OnCloseClick { get; set; }
 
         /// <summary>
         /// The <see cref="Type"/>
