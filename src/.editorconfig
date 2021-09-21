@@ -2,3 +2,6 @@
 
 # CS1591: Missing XML comment for publicly visible type or member
 dotnet_diagnostic.CS1591.severity = silent
+
+# BL0005: Component parameter 'IsSelected' should not be set outside of its component.
+dotnet_diagnostic.BL0005.severity = none
